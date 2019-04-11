@@ -5,16 +5,14 @@
     <title>Deybit Gutierrez</title>
     <link rel="icon" type="image/png" href="images/favicon.png"/>
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet"
   </head>
   <body>
-    <header>
-      <figure>
+    <header class="header">
+      <figure class="logo">
         <img src="images/logo.png" alt="Logo inicial">
       </figure>
-      <nav>
-        <ul>
-
-        </ul>
+      <nav class="menu">
         <ol>
           <li>
             <a href="#portafolio"> Portafolio</a>
@@ -28,43 +26,45 @@
         </ol>
       </nav>
     </header>
-    <section>
+    <section class="hero">
       <h1>
         Bienvenido, soy <strong>Deybit Gutierrez</strong>, sigo <br> aprendiendo a desarrolar en  <br> <strong>JavaScript</strong>, mi meta: <br> FullStack
       </h1>
       <img src="images/hero.jpg" alt="Imagen de portada" width="550" height="400">
     </section>
-    <section id="portafolio">
-      <article class="">
-        <h2>Algunos proyectos</h2>
+    <section id="portafolio" class="portfolio">
+      <h2>Algunos proyectos</h2>
+      <article class="project">
         <article class="">
-          <h3>Nombre del proyecto 1</h3>
-          <h6>JavaScript</h6>
-          <p><small><strong>Fecha:</strong> XX-XX-XXXX</small></p>
-          <p><small><strong>Visualizalo en:</strong> link </small></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <img src="images/platzi-video-react-native.png" alt="Curso de react native" width="500">
+          <h3 class="project-title">Nombre del proyecto 1</h3>
+          <h6 class="project-course">JavaScript</h6>
+          <p class="project-date"><small><strong>Fecha:</strong> XX-XX-XXXX</small></p>
+          <p class="project-url"><small><strong>Visualizalo en:</strong> link </small></p>
+          <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <figure class="project-imageContainer">
+            <img class="project-image" src="images/platzi-video-react-native.png" alt="Curso de react native" width="500">
+          </figure>
         </article>
       </article>
     </section>
     <section id="masinfo">
       <h2>Mas info</h2>
-      <article class="">
-        <figure>
+      <article class="event">
+        <figure class="event-imageContainer">
           <img src="images/platzi-conf.jpg" alt="" width="500">
         </figure>
-        <h3>Titulo</h3>
-        <p>Descripcion</p>
-        <a href="https://www.youtube.com/watch?v=BIS7cWGgJg0">Ver video</a>
+        <h3 class="event-title">Titulo</h3>
+        <p class="event-description">Descripcion</p>
+        <a class="event-description-url" href="https://www.youtube.com/watch?v=BIS7cWGgJg0">Ver video</a>
       </article>
     </section>
-    <section id="contacto">
-      <form class="" action="index.html" method="post">
+    <section id="contacto" class="contact">
+      <form class="form-email" action="index.html" method="post">
         <h3>Contactame</h3>
         <input type="email" placeholder="Escribe tu email" name="" value="" id="email">
         <button type="button" name="button">Enviar</button>
       </form>
     </section>
-    <footer> footer</footer>
+    <footer class="footer"> footer</footer>
   </body>
 </html>
